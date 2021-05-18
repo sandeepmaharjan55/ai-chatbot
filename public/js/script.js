@@ -45,7 +45,7 @@ function synthVoice(text) {
   synth.speak(utterance);
 }
 
-socket.on('Reply', function(replyText) {
+socket.on('bot reply', function(replyText) {
   synthVoice(replyText);
 
   if(replyText == '') replyText = '(No answer...)';
