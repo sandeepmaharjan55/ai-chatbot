@@ -2,8 +2,8 @@
 
 AI Chatbot Web Speech API
 
-To get the reply you need to add .env file in root folder and set
-APIAI_TOKEN=<token from dialogflow.cloud.google.com>
+To get the reply you need to add .env file in root folder and set <br />
+APIAI_TOKEN=<token from dialogflow.cloud.google.com> <br />
 APIAI_SESSION_ID=<random string>
 
 output image 1 <br />
